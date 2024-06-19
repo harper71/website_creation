@@ -1,0 +1,22 @@
+<script>
+    var global = "willams"
+    function func1() {
+        oopsglobal = 5;
+    }
+
+    function func2() {
+        var output = "";
+
+        if (typeof global != "undefined")
+        {
+            output += "myglobal: " + global;
+        }
+        if (typeof oopsglobal != "undefined") {
+            output += " oppsglobal " + oopsglobal;
+        }
+        console.log(output);
+    }
+    func1();
+    func2();
+
+</script>
