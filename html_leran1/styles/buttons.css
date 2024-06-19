@@ -1,0 +1,44 @@
+.tohoma {
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.deals {
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.sales {
+    color: red;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.title {
+    font-family: Verdana;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.begin {
+    margin-top: 4px;
+    font-family: Verdana;
+    font-size: 15px;
+    color: rgb(183, 178, 178);
+}
+
+.texts {
+    width: 250px;
+}
+
+.bottons {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(58, 160, 58);
+}
