@@ -33,13 +33,14 @@ p {
 .thumbnails-row {
     margin-bottom: 12px;
 }
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
 .channel-pic {
-    display: inline-block;
-    width: 40px;
     vertical-align: top;
 }
 .video-info {
-    display: inline-block;
     width: 230px;
 }
 .profile-pic {

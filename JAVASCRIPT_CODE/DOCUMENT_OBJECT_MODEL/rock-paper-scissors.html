@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>rock paper scissors</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="">
+	<script src="rock_paper.js" defer></script>
+</head>
+
+<body>
+	<!--[if lt IE 7]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+	<p>Rock Paper Scissors</p>
+	<button onclick="
+		palyerMoves('rock');
+		updateMoveElement();
+	">rock</button>
+	<button onclick="
+		palyerMoves('paper');
+		updateMoveElement();
+		">Paper</button>
+	<button onclick="
+		palyerMoves('scissors');
+		updateMoveElement();
+	">scissors</button>
+	<p class="js-result"></p>
+	<p class="js-moves"></p>
+	<p class="js-score"></p>
+	<button onclick="
+			score.wins = 0;
+			score.losses = 0;
+			score.ties = 0;
+			updateScoreElement();
+		">reset score</button>
+	<script src="rock_paper.js" async defer>
+		updateScoreElement();
+		updateMoveElement();
+		console.log(!true);
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+p {
+	font-family: Arial;
+	font-size: 15px;
+
+}
+
+.search_bar {
+display: block;
+
+}
+.video-preview {
+	width: 300px;
+	vertical-align: top;
+}
+.thumbnail-1-css {
+	width: 300px;
+	display: block;
+}
+.video-author, .video-stats {
+	width: 300px;
+	display: inline-block;
+}

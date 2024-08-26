@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DOM</title>
+	<style>
+		.greet {
+			background-color: blue;
+			color: white;
+		}
+		.js-button2 {
+			background-color: red;
+			color: aliceblue;
+		}
+	</style>
+</head>
+<body>
+	<button class="greet">hello</button>
+	<button class="js-button2">second button</button>
+	<script>
+		console.log(document.querySelector('button'));
+
+		document.querySelector('.button2')
+			.innerHTML = 'Changed';
+		
+		const buttonElement = document.querySelector('.js-button2');
+
+		console.log(buttonElement);
+		/*
+		//DOM combines javascript and html together
+		document.body.innerHTML = 'hello';// this controls all the html in the body
+		document.title = 'GOOD JOB';// this gets the title of the html
+		console.log(document.title);
+		
+		console.log(document.body.innerHTML);
+		document.body.innerHTML = '<button> hello </button>';
+	*/	
+		
+	</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.gaming-button1 {
+	background-color: rgb(230, 230, 230);
+	color: black;
+	font-family: Arial;
+	font-size: 15px;
+	padding: 10px 15px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+}
+
+.gaming-button2 {
+	background-color: rgb(230, 230, 230);
+	color: black;
+	font-family: Arial;
+	font-size: 15px;
+	padding: 10px 15px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+.gaming-button3 {
+	background-color: rgb(230, 230, 230);
+	color: black;
+	font-family: Arial;
+	font-size: 15px;
+	padding: 10px 15px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+.onclick-css2 {
+	background-color: black;
+	color: rgb(230, 230, 230);
+	font-family: Arial;
+	font-size: 15px;
+	padding: 10px 15px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+}

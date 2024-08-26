@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>rock paper scissors</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="">
+	<script src="scripts/rock-paper3.js" defer></script>
+	<link rel="stylesheet" href="Styles/rock-paper3.css">
+</head>
+
+<body>
+	<!--[if lt IE 7]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+	<p id="title">Rock Paper Scissors</p>
+	<button class="moves-button js-rock"><img class="moves-icon" src="images/rock-emoji.png"></button>
+	<button class="moves-button js-paper"><img class="moves-icon" src="images/paper-emoji.png"></button>
+	<button class="moves-button js-scissors"><img class="moves-icon" src="images/scissors-emoji.png"></button>
+	<p class="js-result result">You win</p>
+	<p class="js-moves"></p>
+	<p class="js-score score"></p>
+	<button onclick="
+			score.wins = 0;
+			score.losses = 0;
+			score.ties = 0;
+			updateScoreElement();
+		" class="reset-score">Reset score</button>
+
+		<button class="auto-play-css" onclick="
+			autoPlay();
+		">Auto Play</button>
+	<script src="scripts/rock-paper3.js" async defer>
+		updateScoreElement();
+		updateMoveElement();
+		console.log(!true);
+	</script>
+</body>
+
+</html>

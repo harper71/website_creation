@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>heads or tails</title>
+	<script src="heads_tails.js" defer></script>
+</head>
+<body>
+	<button onclick="
+		playerMoves('heads');
+		updateScoreElement();
+		">
+		heads
+	</button>
+	<button onclick="
+		playerMoves('tails');
+		updateScoreElement();
+	">
+		tails
+	</button>
+	<p class="js-score"></p>
+	<button onclick="
+		score.wins = 0;
+		score.losses = 0;
+	">
+		Reset
+	</button>
+	<script src="heads_tails.js" async defer>
+		updateScoreElement();
+	</script>
+</body>
+</html>
