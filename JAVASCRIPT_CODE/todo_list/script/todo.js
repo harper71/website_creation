@@ -13,9 +13,9 @@ let todeListHtml = '';
 for (let index = 0; index < todoList.length; index++) {
 	const elementsObject = todoList[index];
 	const { name, dueDate } = elementsObject;
-	const html = `	
+	const html = `
 		<div>${name}</div>
-		<div>${dueDate}</div> 
+		<div>${dueDate}</div>
 		<button class="delete-css" onclick="
 			todoList.splice(${index}, 1);
 			renderTodo();
@@ -42,11 +42,11 @@ function addTodo() {
 	});
 	console.log(todoList);
 	inputElement.value = '';
-	
-	renderTodo();	
+
+	renderTodo();
 }
 
 const addButtonElement = document.querySelector('.js-add-button');
 addButtonElement.addEventListener('click', () => {
 	addTodo();
-})
+})  
